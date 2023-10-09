@@ -23,14 +23,14 @@ body {
 
 .nav_area .logo {
   position: absolute;
-  left: -8px;
-  top: -42px;
+  left: 7px;
+  top: 12px;
    
 }
 
 .nav_area .logo img {
    
-  height: 140px;
+  height: 30px;
   max-width: auto;
 }
 
@@ -261,11 +261,11 @@ footer {
 
   .nav_area .logo {
     position: absolute;
-    top: -33px;
-    left: -5px;
+    top: 10px;
+    left: 6px;
   }
   .nav_area .logo img {
-    height: 7rem;
+    height: 1.5rem;
   }
   .nav_area .right_a a {
     margin: 0 2px;
@@ -285,6 +285,13 @@ footer {
   .menu_i i {
     font-size: 0.8rem;
   }
+
+  .menu_i:checked~ .menu_i i {
+    display: none;
+  }
+
+
+
   main .landing {
     margin-top: 170px;
   }
